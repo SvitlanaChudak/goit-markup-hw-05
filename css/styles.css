@@ -531,7 +531,7 @@ border-radius: 2px;
     border: 1px solid var(--icons-color);
     border-radius: 4px;
     color: var(--icons-color);
-    transition-property: color;
+    transition-property: color, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -710,7 +710,7 @@ border-radius: 2px;
     fill: var(--white-color);
 }
 
-.footer-socials-link:hover {
+.footer-socials-link:hover, .footer-socials-link:focus {
     background-color: var(--brand-color-blue);
 }
 
